@@ -1,4 +1,4 @@
-FROM --platform=${TARGETPLATFORM} liferay/jdk21:latest AS liferay-jdk21
+FROM --platform=${TARGETPLATFORM} liferay/jdk11-jdk8:latest AS liferay-jdk21
 
 COPY resources/etc/created-date /etc/created-date
 

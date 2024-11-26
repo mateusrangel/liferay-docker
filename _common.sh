@@ -2,7 +2,7 @@
 
 if [ -z "${LIFERAY_DOCKER_REPOSITORY}" ]
 then
-	LIFERAY_DOCKER_REPOSITORY=liferay
+	LIFERAY_DOCKER_REPOSITORY=
 fi
 
 function check_docker_buildx {
